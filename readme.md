@@ -10,4 +10,5 @@
 - [25、 K 个一组翻转链表](https://juejin.cn/post/7030441291460640781)
 - [剑指 Offer 06、从尾到头打印链表](https://juejin.cn/post/7030813208088674341)
 - [704、 二分查找](https://juejin.cn/post/7031513847408427045)
-- [633、平方数之和](https://juejin.cn/post/7031513847408427045)
+- [633、平方数之和](https://juejin.cn/post/7031845996183814158)
+- [两数之和](https://juejin.cn/post/7031836917683617823)
