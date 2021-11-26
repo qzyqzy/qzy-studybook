@@ -57,3 +57,8 @@ function infiniteLoop(): never {
 let o: object;
 o = [1, 2, 3];
 // o = 1; // 不能将类型“number”分配给类型“object”。
+
+let o1: { name: string; age: number };
+o1 = { name: "qzy", age: 18 };
+
+export default void 0;
