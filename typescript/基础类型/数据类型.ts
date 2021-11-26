@@ -34,3 +34,26 @@ enum Color {
 let c: Color = Color.Red;
 
 let cName: string = Color[1];
+
+// any 不确定变量的类型
+let a: any = 1;
+a = "ts";
+
+// void
+function v(): void {
+  console.log("void");
+}
+
+// never
+function nev(): never {
+  throw "123";
+}
+
+function infiniteLoop(): never {
+  while (true) {}
+}
+
+// object
+let o: object;
+o = [1, 2, 3];
+// o = 1; // 不能将类型“number”分配给类型“object”。
