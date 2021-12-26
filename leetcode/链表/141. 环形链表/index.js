@@ -6,7 +6,7 @@ var hasCycle = function (head) {
   slow = head;
   fast = head;
   do {
-    // 快指针到达终点
+    // 快指针到达终点，也代表无环
     if (fast == null || fast.next == null) {
       return false;
     }
