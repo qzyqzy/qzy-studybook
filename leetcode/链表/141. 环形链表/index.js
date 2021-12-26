@@ -3,8 +3,8 @@ var hasCycle = function (head) {
   if (head == null || head.next == null) {
     return false;
   }
-  slow = head;
-  fast = head;
+  let slow = head;
+  let fast = head;
   do {
     // 快指针到达终点，也代表无环
     if (fast == null || fast.next == null) {
