@@ -4,7 +4,7 @@ var reverseList = function (head) {
   let cur = head;
   // 当前节点不是尾节点 我就不停止
   while (cur) {
-    // 临时存储当前节点的下一个节点
+    // 临时存储当前节点的下一个节点，供反转之后使用
     const next = cur.next;
     // 反转
     cur.next = prev;
